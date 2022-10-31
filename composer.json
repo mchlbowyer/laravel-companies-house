@@ -1,0 +1,36 @@
+{
+  "name": "mchlbowyer/laravel-companies-house",
+  "description": "A Laravel Companies House package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Bowyer",
+      "email": "hi@mikecod.es",
+      "homepage": "https://mikecod.es"
+    }
+  ],
+  "homepage": "https://github.com/mchlbowyer/laravel-companies-house",
+  "keywords": [
+    "Laravel",
+    "Companies House"
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6|^7",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mchlbowyer\\CompaniesHouse\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mchlbowyer\\CompaniesHouse\\CompaniesHouseServiceProvider"
+      ],
+      "aliases": {
+        "CompaniesHouse": "Mchlbowyer\\CompaniesHouse\\Facades\\CompaniesHouse"
+      }
+    }
+  }
+}
