@@ -221,7 +221,3 @@ Contributions are accepted via Pull Requests on [Github](https://github.com/mchl
 ## Security
 
 If you discover any security related issues, please email hi@mikecod.es instead of using the issue tracker.
-
-## License
-
-license. Please see the [license file](license.md) for more information.
